@@ -1,0 +1,145 @@
+body {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+
+.menubar {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(57, 53, 53);
+    padding: 50px 0 50px 0;
+    z-index: 100;
+    
+    
+}
+
+.menubar li {
+    display: inline-block;
+    background: rgb(247, 214, 171);
+    width: 250px;
+    text-align: center;
+    position: relative;
+    padding: 15px 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+ 
+    
+    
+}
+.menubar li a {
+    color: black;
+    text-decoration: none;
+}
+
+.menubar li:hover {
+    background: white;
+}
+
+.menubar li ul {
+    visibility: hidden;
+    padding: 0;
+    position: absolute;
+    top: 50px;
+    left:0;
+    z-index: 10; 
+      
+}
+
+.menubar li:hover ul {
+    visibility: visible;
+}
+
+.menubar li ul li {
+    background: rgb(35, 34, 34);
+    display: block;    
+    margin: 0;
+    z-index: 10;
+    
+}
+.menubar li ul li a {
+    white-space: nowrap;
+    display: block;
+}
+.menubar li ul li:hover {
+    background: rgb(159, 154, 154);
+}
+.menubar li ul a {
+    color: white;
+}
+
+.jumbotron {
+    background-image: url(desert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding: 20vh 0 20vh 0;
+    text-transform: uppercase;
+    color: white;
+}
+.jumbotron .container{
+    padding-bottom: 50px
+}
+
+.jumbotron .container h1 {
+    font-size: 7em;
+}
+.jumbotron .container a {
+    text-decoration: none;
+    background: rgb(57, 53, 53);
+    color: white;
+    padding: 15px 25px;
+    font-size: 2em;
+    
+
+}
+section {
+    display: inline-block;
+    text-align: center;
+    padding: 150px;
+    
+    
+}
+
+section .container .col {
+    width: 500px;
+    float: left;
+    padding: 100px;
+}
+
+section .container .col i {
+    font-size: 5em;
+}
+section .container .col h2 {
+    text-transform: uppercase;
+    font-size: 3em
+}
+section .container .col p {
+    font-size: 2em;
+}
+section .container .col a {
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+    padding: 5px 5px;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 4em;
+    
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    background: rgb(57, 53, 53);
+    color: white;
+    text-transform: uppercase;
+    padding: 50px 0 50px 0;
+    font-size: 1.5em;   
+
+}
+
